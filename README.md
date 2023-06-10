@@ -27,15 +27,15 @@ Package that was used:
 
 Run project (site will be available on http://127.0.0.1:8000/)
 ```sh 
-    docker compose up --build
+docker compose up --build
 ```
 
 Check docker image status and ports
 ```sh 
-    docker-compose ps
+docker-compose ps
 ```
 
 Run database migrations
 ```sh 
-    docker compose exec django python manage.py migrate 
+docker compose exec django python manage.py migrate 
 ```
