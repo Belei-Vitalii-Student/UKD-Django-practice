@@ -1,0 +1,9 @@
+<form method="post" enctype="multipart/form-data" class="d-flex flex-column justify-content-center">
+    {% csrf_token %}
+    <input type="file" class="input-file form-control" required name="image" accept=".png" id="id_image" onchange="handleImageSelection(event)"/>
+    <div class="color-picker d-flex flex-row justify-content-between align-items-stretch form-control">
+        <label for="color" class="form-label flex-fill">Background:</label>
+        <input type="color" class="input-color form-control form-control-color" id="color" name="color" value="#ffffff">
+    </div>
+    <button type="submit" class="submit-btn btn btn-outline-light text-light mt-3"><b>CONVERT</b></button>
+</form>
