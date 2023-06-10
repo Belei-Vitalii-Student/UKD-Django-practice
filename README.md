@@ -25,7 +25,7 @@ Package that was used:
 
 ---
 
-Run project (site will be available on http://127.0.0.1:8000/)
+Run project (site will be available on http://127.0.0.1:8088/)
 ```sh 
 docker compose up --build
 ```
@@ -39,3 +39,11 @@ Run database migrations
 ```sh 
 docker compose exec django python manage.py migrate 
 ```
+
+## Some screenshots from site
+
+---
+
+![image](https://github.com/Belei-Vitalii-Student/UKD-Django-practice/assets/99961129/eb775020-2a53-4141-975f-881d79a98518)
+![image](https://github.com/Belei-Vitalii-Student/UKD-Django-practice/assets/99961129/90813cc3-f946-4699-bbef-4a4916b9100f)
+![image](https://github.com/Belei-Vitalii-Student/UKD-Django-practice/assets/99961129/e43bf443-b55f-49a3-a565-3e9e666cc703)
